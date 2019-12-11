@@ -36,7 +36,9 @@ En el respositorio wc1:
 Actualiza el respositorio wc2 y analiza los mensajes.
 
 ## Ejercicio 5 - Empty folder, dayli routine continued
+
 En wc2:
+
 	a) Crea un nuevo directorio llamado 'html'.
 		- Comprueba el estado del repositorio. ¿Qué ha pasado?
 		- Envia los cambios al repositorio remoto. ¿Cómo?
@@ -73,3 +75,32 @@ En wc1:
  
  ## Ejercicio 8
  
+ En 'wc1':
+ 	
+ 	a) Cambia table { border-style:solid; } por table { border-style:dotted; } en logo.css.
+ 	b) Envía los cambios al repositorio remoto.
+ 	
+ En 'wc2':
+ 
+ 	a) NO actualices el repositorio.
+ 	b) Cambia table { border-style:solid; } por table { border-style:dashed; } en logo.css.
+ 	c) Tienes que conseguir que en el respositorio remoto quede como lo acabas de modificar.
+ 	
+ 	
+## Ejercicio 9
+
+	a) Crea wc3 en proyectosGit a partir del repositorio remoto.
+	b) Crea una rama llamada cambiandoEstilos.
+	c) Cámbiate a dicha rama.
+	d) Modifica algo en logo.css.
+	e) Cámbiate a la rama master.
+	f) Modifica el fichero logo.html
+	g) Incorpora los cambios de la rama logo.css a master.
+	h) Elimina la rama cambiandoEstilos.
+	
+## Ejercicio 10
+
+	a) Crea un fork del repositorio Git_exercises_dec19 donde estaba esté enunciado.
+	b) Crea una nueva rama con tu nombre.
+	c) Añade un fichero autoeval donde indiques como crees que has realizado estos ejercicios.
+	d) Haz un pull request.
