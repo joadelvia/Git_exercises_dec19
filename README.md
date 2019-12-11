@@ -1,4 +1,6 @@
+# Ejercicios git 
 
+Haz un fork del siguiente repositorio, crea una rama llamada solución  y haz una copia de este fichero en un fichero con tu nombre, a continuación  modifica el fichero creado indicando los pasos que vas realizando para resolver este ejercicio.
 
 ## Ejercicio 1 - Prepare basic git environment
 Prepara el proyecto 'slideshow':
@@ -100,7 +102,6 @@ En wc1:
 	
 ## Ejercicio 10
 
-	a) Crea un fork del repositorio Git_exercises_dec19 donde estaba esté enunciado.
-	b) Crea una nueva rama con tu nombre.
-	c) Añade un fichero autoeval donde indiques como crees que has realizado estos ejercicios.
-	d) Haz un pull request.
+	a) Añade un fichero remoto que contenga la dirección del repositorio remoto que has utilizado para los ejercicios.
+	b) Añade un fichero autoeval donde indiques como crees que has realizado estos ejercicios.
+	b) Haz un pull request.
