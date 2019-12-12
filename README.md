@@ -88,6 +88,8 @@ En wc1:
  	b) Cambia table { border-style:solid; } por table { border-style:dashed; } en logo.css.
  	c) Tienes que conseguir que en el respositorio remoto quede como lo acabas de modificar.
  	
+ Averigua quién y cuando creó el fichero 'logo.css'.
+ 	
  	
 ## Ejercicio 9
 
