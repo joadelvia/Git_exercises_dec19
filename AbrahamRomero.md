@@ -171,7 +171,7 @@ En wc1:
 	 a) Elimina "logo5.html", utiliza únicamente 'rm'.
 		 - Comprueba el estado del repositorio analizando los mensajes.
 
-        
+
 
 		 - Deshaz el cambio.
  	b) Elimina "logo5.html" de nuevo, pero esta vez utiliza 'git rm'
@@ -214,5 +214,8 @@ En wc1:
 ## Ejercicio 10
 
 	a) Añade un fichero remoto que contenga la dirección del repositorio remoto que has utilizado para los ejercicios.
+
+    > https://github.com/Abrahamrc94/slideshow.git
+
 	b) Añade un fichero autoeval donde indiques como crees que has realizado estos ejercicios.
 	b) Haz un pull request.
