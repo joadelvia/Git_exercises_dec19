@@ -187,17 +187,35 @@ En wc1:
  	
 ## Ejercicio 9
 
-	a) Crea wc3 en proyectosGit a partir del repositorio remoto.
+	a) Crea wc3 en proyectosGit a partir del repositorio remoto.ç
+		mkdir wc3
+		git clone https://github.com/xXxarroyoxXx/slideshow wc3
 	b) Crea una rama llamada cambiandoEstilos.
+		git checkout -b cambiandoEstilos
 	c) Cámbiate a dicha rama.
+		Con el comando anterior hago lo mismo
 	d) Modifica algo en logo.css.
+		nano html/logo.css
+		git commit -am "Modificacion del ejercicio 9)d"
 	e) Cámbiate a la rama master.
+		git checkout master
 	f) Modifica el fichero logo.html
+		nano html/logo.css
+		git add .
+		git commit -m "Conflicto"
 	g) Incorpora los cambios de la rama logo.css a master.
+		git merge cambiandoEstilos
+		Salta el asistente de que no podemos unirla hasta que no lo arreglemos
+		por lo tanto nos vamos al archivo y arreglamos lo necesario y posteriormente usamos un commit
+		git add .
+		git commit -m "Resolvemos el conflictos"
 	h) Elimina la rama cambiandoEstilos.
+		git branch -d cambiandoEstilos
 	
 ## Ejercicio 10
 
 	a) Añade un fichero remoto que contenga la dirección del repositorio remoto que has utilizado para los ejercicios.
+	nano direcconalremoto.txt
 	b) Añade un fichero autoeval donde indiques como crees que has realizado estos ejercicios.
+		
 	b) Haz un pull request.
